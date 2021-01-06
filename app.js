@@ -8,8 +8,13 @@ const Closure = (x,y) => {
 	}
 }
 
+const GetDate = () => {
+	return new Date();
+}
+
 const Main = Closure(3,9);
 console.log(Main(12))
 
 console.log(Closure(6,7)(5))
 console.log(Duplicate(5))
+console.log(GetDate());
